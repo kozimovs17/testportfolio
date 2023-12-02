@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&family=Raleway&display=swap");
+.skills {
+  width: 1066px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 180px;
+}
+.skills .title {
+  width: 404px;
+  height: 107px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid #000;
+  background: rgba(255, 255, 255, 0);
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 127.9%;
+  /* 38.37px */
+  letter-spacing: 10.661px;
+  text-transform: uppercase;
+}
+.skills .usingnow {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 75px;
+  margin-top: 102px;
+}
+.skills .usingnow h1 {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5.561px;
+}
+.skills .usingnow .usingnow-item {
+  width: 100%;
+  height: auto;
+  display: grid;
+  row-gap: 65px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+}
+.skills .usingnow .usingnow-item .usingnow-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+}
+.skills .usingnow .usingnow-item .usingnow-frame p {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.249px;
+}
+.skills .learning {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 75px;
+  margin-top: 102px;
+}
+.skills .learning h1 {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5.561px;
+}
+.skills .learning .learning-item {
+  width: 100%;
+  height: auto;
+  display: grid;
+  row-gap: 65px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+}
+.skills .learning .learning-item .learning-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+}
+.skills .learning .learning-item .learning-frame p {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.249px;
+}
+.skills .otherskills {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 75px;
+  margin-top: 102px;
+}
+.skills .otherskills h1 {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5.561px;
+}
+.skills .otherskills .otherskills-item {
+  width: 100%;
+  height: auto;
+  display: grid;
+  row-gap: 65px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+}
+.skills .otherskills .otherskills-item .otherskills-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+}
+.skills .otherskills .otherskills-item .otherskills-frame p {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.249px;
+}/*# sourceMappingURL=skills.css.map */

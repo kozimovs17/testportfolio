@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&family=Raleway&display=swap');
+
+@media(max-width: 600px) {
+    header {
+        width: 100%;
+        height: auto;
+        padding-top: 0px;
+        overflow: hidden;
+        background-image: url(./img/Background.png);
+        background-size: cover;
+
+        .header-background2 {
+            display: none;
+        }
+
+        .logo {
+            display: none;
+        }
+
+        .medialogo {
+            display: block;
+        }
+
+        nav {
+            width: 100%;
+            height: 60px;
+            display: flex;
+            padding: 0 10px;
+            justify-content: space-between;
+            background-color: #000;
+
+            .navbar {
+                width: 30px;
+                height: 50px;
+                display: flex;
+                flex-direction: column;
+
+                span {
+                    width: 30px;
+                    height: 3px;    
+                }
+            }
+
+            .navbarx {
+                width: 30px;
+                height: 50px;
+                display: none;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+            }
+
+            .navbarx-r {
+                width: 30px;
+                height: 3px;
+                background-color: #fff;
+                position: absolute;
+                transform: rotate(45deg);
+                transition: all 0.5s;
+            }
+
+            .navbarx-l {
+                width: 30px;
+                height: 3px;
+                background-color: #fff;
+                position: absolute;
+                transition: all 0.5s;
+                transform: rotate(135deg);
+            }
+
+            ul {
+                width: 100%;
+                display: none;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                position: absolute;
+                top: 60px;
+                background-color: #00000081;
+                transition: all 0.5s;
+
+                .btn-header {
+                    width: 100%;
+                    border-radius: 0px;
+                }
+            }
+        }
+
+        .header-item {
+            width: 382px;
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            position: relative;
+
+            .header-info {
+                width: 382px;
+                height: auto;
+                gap: 54px;
+                align-items: center;
+                margin-top: 195px;
+
+                p {
+                    color: #fff;
+                    font-size: 25px;
+
+                }
+
+                h1 {
+                    color: #fff;
+                    font-size: 40px;
+
+                }
+                 span {
+                    width: 382px;
+                    height: 26px;
+                    color: #909090;
+                    text-align: center;
+                }
+
+                .header-links {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 0px;
+                    gap: 31px;
+
+                    a {
+                        background: none;
+                        box-shadow: none;
+                    }
+                }
+            }
+
+            .header-img1 {
+                display: none;
+            }
+
+            .header-background {
+                display: none;
+            }
+        }
+    }
+
+    section {
+        width: 100%;
+        height: 547px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+
+        h1 {
+            width: 285px;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        p {
+            width: 284px;
+            height: 275px;
+        }
+
+        .section-item {
+            z-index: -1;
+        }
+    }
+    .background-frame {
+        width: 100%;
+        height: 2340px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF;
+        position: absolute;
+        top: 1165px;
+        z-index: -1;
+    }
+    
+    .about {
+        width: 382;
+        height: auto;
+        margin-top: 74px;
+    
+        .title {
+            width: 210px;
+            height: 68px;
+            font-size: 14px;
+        }
+    
+        h2 {
+            width: 265px;
+            height: 225px;
+            font-size: 12px;
+            margin-top: 38px;
+        }
+    
+        a {
+            margin-top: 30px;
+        }
+    
+        .about-separator {
+            margin-top: 85px;
+        }
+    
+        .about-item {
+            flex-direction: column;
+            margin-top: 61px;
+    
+            .about-info1 {
+                display: flex;
+                flex-direction: column;
+    
+                h1 {
+                    width: 90px;
+                    height: 74px;
+                    font-size: 17px;
+                }
+    
+                p {
+                    width: 249px;
+                    height: 77px;
+                }
+            }
+        }
+    
+        .about-info2 {
+    
+            h1 {
+                width: 90px;
+                height: 74px;
+                font-size: 17px;
+            }
+    
+            p {
+                width: 249px;
+                height: 77px;
+            }
+        }
+    }
+    .skills {
+        width: 382px;
+        margin-top: 150px;
+    
+        .title {
+            width: 161px;
+            height: 68px;
+            font-size: 14px;
+        }
+    
+        .usingnow {
+            width: 100%;
+            align-items: center;
+            gap: 47px;
+            margin-top: 60px;
+
+    
+            .usingnow-item {
+                grid-template-columns: auto auto ;
+                grid-template-rows: auto auto auto auto;
+            }
+        }
+    
+        .learning {
+            display: none;
+        }
+    
+        .otherskills {
+            display: none;
+        }
+    }
+}
