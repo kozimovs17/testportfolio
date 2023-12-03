@@ -23,6 +23,27 @@ header {
   overflow: hidden;
   position: relative;
 }
+header .dennoch {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -80px;
+}
+header .sun {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: none;
+}
+header .moon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
 header .header-background2 {
   width: 1920px;
   height: 1022px;
@@ -40,6 +61,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 header nav .navbar {
   width: 50px;
