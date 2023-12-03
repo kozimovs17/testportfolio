@@ -42,7 +42,7 @@
   align-items: center;
   gap: 45px;
 }
-.portfolio .portfolio-nav a {
+.portfolio .portfolio-nav p {
   text-decoration: none;
   display: flex;
   width: 149px;
@@ -56,8 +56,9 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  transition: all 0.5s;
 }
-.portfolio .portfolio-nav .portfolio-links {
+.portfolio .portfolio-nav .portfolio-stylea {
   color: #FFFBFB;
 }
 .portfolio .projects {

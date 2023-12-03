@@ -45,7 +45,7 @@
         align-items: center;
         gap: 45px;
 
-        a {
+        p {
             text-decoration: none;
             display: flex;
             width: 149px;
@@ -59,9 +59,10 @@
             font-style: normal;
             font-weight: 500;
             line-height: normal;
+            transition: all 0.5s;
         }
 
-        .portfolio-links {
+        .portfolio-stylea {
             color: #FFFBFB;
         }
     }

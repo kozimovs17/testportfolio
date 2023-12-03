@@ -206,6 +206,7 @@
   .skills {
     width: 382px;
     margin-top: 150px;
+    overflow: scroll;
   }
   .skills .title {
     width: 161px;
@@ -257,6 +258,7 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
+    overflow: scroll;
   }
   .portfolio .projects img {
     width: 382px;
