@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&family=Raleway&display=swap');
-
+$textcolor: gray;
 .contact {
     width: 1920px;
     height: 1178px;
@@ -17,7 +17,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #000;
+        color: $textcolor;
         text-align: center;
         font-family: 'Montserrat';
         font-size: 30px;
@@ -32,7 +32,7 @@
     p {
         width: 763px;
         height: 72px;
-        color: #000;
+        color: $textcolor;
         text-align: center;
         font-family: 'Montserrat';
         font-size: 15px;
@@ -57,7 +57,7 @@
         border-left: 5px solid #000;
         padding-left: 14px;
         font-size: 18px;
-        color: #000;
+        color: $textcolor;
     }
 
     .massage {
@@ -72,7 +72,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: #000;
+        color: $textcolor;
         text-align: center;
         font-family: 'Montserrat';
         font-size: 16px;
@@ -81,8 +81,8 @@
         line-height: normal;
         letter-spacing: 1.6px;
         border: none;
-        border-left: 2px solid #000;
-        border-right: 2px solid #000;
+        border-left: 2px solid $textcolor;
+        border-right: 2px solid $textcolor;
         background-color: transparent;
         margin-top: 62px;
     }

@@ -155,7 +155,7 @@ header .header-item .header-info {
   margin-top: 195px;
 }
 header .header-item .header-info p {
-  color: #000;
+  color: gray;
   text-align: center;
   font-family: "Raleway";
   font-size: 40px;
@@ -166,7 +166,7 @@ header .header-item .header-info p {
 header .header-item .header-info h1 {
   width: 532px;
   height: 105px;
-  color: #000;
+  color: gray;
   text-align: center;
   font-family: " Raleway";
   font-size: 80px;

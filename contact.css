@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #000;
+  color: gray;
   text-align: center;
   font-family: "Montserrat";
   font-size: 30px;
@@ -30,7 +30,7 @@
 .contact p {
   width: 763px;
   height: 72px;
-  color: #000;
+  color: gray;
   text-align: center;
   font-family: "Montserrat";
   font-size: 15px;
@@ -53,7 +53,7 @@
   border-left: 5px solid #000;
   padding-left: 14px;
   font-size: 18px;
-  color: #000;
+  color: gray;
 }
 .contact .massage {
   height: 184px;
@@ -66,7 +66,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #000;
+  color: gray;
   text-align: center;
   font-family: "Montserrat";
   font-size: 16px;
@@ -75,8 +75,8 @@
   line-height: normal;
   letter-spacing: 1.6px;
   border: none;
-  border-left: 2px solid #000;
-  border-right: 2px solid #000;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
   background-color: transparent;
   margin-top: 62px;
 }/*# sourceMappingURL=contact.css.map */

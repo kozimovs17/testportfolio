@@ -275,7 +275,7 @@
   }
   .portfolio .projects {
     width: 382px;
-    height: auto;
+    height: 602px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;

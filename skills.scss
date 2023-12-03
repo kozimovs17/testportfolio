@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&family=Raleway&display=swap');
-
+$textcolor: gray;
 .skills {
     width: 1066px;
     height: auto;
@@ -18,7 +18,7 @@
         justify-content: center;
         border: 8px solid #000;
         background: rgba(255, 255, 255, 0.00);
-        color: #000;
+        color: $textcolor;
         text-align: center;
         font-family: 'Montserrat';
         font-size: 30px;
@@ -40,7 +40,7 @@
         margin-top: 102px;
 
         h1 {
-            color: #000;
+            color: $textcolor;
             font-family: 'Montserrat';
             font-size: 30px;
             font-style: normal;
@@ -64,7 +64,7 @@
                 gap: 17px;
 
                 p {
-                    color: #000;
+                    color: $textcolor;
                     text-align: center;
                     font-family: 'Montserrat';
                     font-size: 24px;
@@ -87,7 +87,7 @@
         margin-top: 102px;
 
         h1 {
-            color: #000;
+            color: $textcolor;
             font-family: 'Montserrat';
             font-size: 30px;
             font-style: normal;
@@ -111,7 +111,7 @@
                 gap: 17px;
 
                 p {
-                    color: #000;
+                    color: $textcolor;
                     text-align: center;
                     font-family: 'Montserrat';
                     font-size: 24px;
@@ -134,7 +134,7 @@
         margin-top: 102px;
 
         h1 {
-            color: #000;
+            color: $textcolor;
             font-family: 'Montserrat';
             font-size: 30px;
             font-style: normal;
@@ -158,7 +158,7 @@
                 gap: 17px;
 
                 p {
-                    color: #000;
+                    color: $textcolor;
                     text-align: center;
                     font-family: 'Montserrat';
                     font-size: 24px;

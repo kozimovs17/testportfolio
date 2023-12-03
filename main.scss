@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&family=Raleway&display=swap');
 
+$textcolor: gray;
 * {
     margin: 0;
     padding: 0;
@@ -171,7 +172,7 @@ header {
             margin-top: 195px;
 
             p {
-                color: #000;
+                color: $textcolor;
                 text-align: center;
                 font-family: 'Raleway';
                 font-size: 40px;
@@ -183,7 +184,7 @@ header {
             h1 {
                 width: 532px;
                 height: 105px;
-                color: #000;
+                color: $textcolor;
                 text-align: center;
                 font-family: ' Raleway';
                 font-size: 80px;

@@ -17,7 +17,7 @@
   justify-content: center;
   border: 8px solid #000;
   background: rgba(255, 255, 255, 0);
-  color: #000;
+  color: gray;
   text-align: center;
   font-family: "Montserrat";
   font-size: 30px;
@@ -38,7 +38,7 @@
   margin-top: 102px;
 }
 .skills .usingnow h1 {
-  color: #000;
+  color: gray;
   font-family: "Montserrat";
   font-size: 30px;
   font-style: normal;
@@ -61,7 +61,7 @@
   gap: 17px;
 }
 .skills .usingnow .usingnow-item .usingnow-frame p {
-  color: #000;
+  color: gray;
   text-align: center;
   font-family: "Montserrat";
   font-size: 24px;
@@ -80,7 +80,7 @@
   margin-top: 102px;
 }
 .skills .learning h1 {
-  color: #000;
+  color: gray;
   font-family: "Montserrat";
   font-size: 30px;
   font-style: normal;
@@ -103,7 +103,7 @@
   gap: 17px;
 }
 .skills .learning .learning-item .learning-frame p {
-  color: #000;
+  color: gray;
   text-align: center;
   font-family: "Montserrat";
   font-size: 24px;
@@ -122,7 +122,7 @@
   margin-top: 102px;
 }
 .skills .otherskills h1 {
-  color: #000;
+  color: gray;
   font-family: "Montserrat";
   font-size: 30px;
   font-style: normal;
@@ -145,7 +145,7 @@
   gap: 17px;
 }
 .skills .otherskills .otherskills-item .otherskills-frame p {
-  color: #000;
+  color: gray;
   text-align: center;
   font-family: "Montserrat";
   font-size: 24px;
