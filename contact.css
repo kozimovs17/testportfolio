@@ -39,6 +39,9 @@
   line-height: 138.682%;
   margin-top: 60px;
 }
+.contact .contact-separator {
+  display: none;
+}
 .contact input {
   width: 609px;
   height: 50px;
