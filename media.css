@@ -89,6 +89,7 @@
     gap: 10px;
     position: absolute;
     top: 60px;
+    z-index: 5;
     background-color: rgba(0, 0, 0, 0.5058823529);
     transition: all 0.5s;
   }
