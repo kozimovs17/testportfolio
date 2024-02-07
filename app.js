@@ -71,9 +71,9 @@ let contact = document.querySelector(".contact");
 let footer = document.querySelector(".footer");
 let n = 0;
 
-dennoch.addEventListener("click", ()=>{
+dennoch.addEventListener("click", () => {
         n++;
-        if(n % 2 !=0){
+        if (n % 2 != 0) {
                 sun.style.display = "flex";
                 moon.style.display = "none";
                 headerbackground.style.backgroundColor = "#1D1D1D";
@@ -82,7 +82,7 @@ dennoch.addEventListener("click", ()=>{
                 aboutback.style.background = "#1D1D1D";
                 contact.style.background = "#1D1D1D";
                 footer.style.background = "#000";
-        }else{
+        } else {
                 sun.style.display = "none";
                 moon.style.display = "flex";
                 section.style.background = "#1D1D1D";
@@ -92,4 +92,86 @@ dennoch.addEventListener("click", ()=>{
                 contact.style.background = "radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF";
                 footer.style.background = "#1D1D1D";
         }
-})
+});
+/***************************************************************************************/
+
+let form = document.querySelector("form");
+let Name = document.getElementById("name");
+let email = document.getElementById("email");
+let number = document.getElementById("number");
+let message = document.getElementById("message");
+let counts = document.querySelectorAll(".contact-inps");
+
+function sendEmail() {
+        let bodyMessage = `Name: ${Name.value}<br> Email: ${email.value}<br> Number: ${number.value}<br> Message: ${message.value}<br>`         
+        Email.send({
+            // SecureToken : "b55af08e-69d7-46c7-8bda-e4cd4db22116",
+            Host : "smtp.elasticemail.com",
+            Username : "kozimovs17@gmail.com",
+            Password : "15B10F19A77678EB8BFDD2E141E193540FB4",
+            To : 'kozimovs17@gmail.com',
+            From : "kozimovs17@gmail.com",
+            Subject : "This your subject",
+            Body : bodyMessage
+        }).then(
+          message => {
+            if(message == "OK"){
+                Swal.fire({
+                    title: "Success",
+                    text: "Your Message Successfully",
+                    icon: "success"
+                  });
+            }
+          }
+        );
+    }
+    
+    function checkInputs(){
+        for(let count of counts){
+            if(count.value == ""){
+                count.classList.add("error");
+                count.parentElement.classList.add("error");
+            }
+    
+            if(counts[2].value != ""){
+                checkEmail();
+            }
+    
+            counts[2].addEventListener("keyup", () =>{
+                checkEmail();
+            });
+    
+            count.addEventListener("keyup", () =>{
+                if(count.value != ""){
+                    count.classList.remove("error");
+                    count.parentElement.classList.remove("error");
+                }else{
+                    count.classList.add("error");
+                    count.parentElement.classList.add("error");
+                }
+            });
+        }
+    }
+    
+    function checkEmail() {
+        let emailRegex = /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,3})(\.[a-z]{2,3})?$/;
+        if(!email.value.match(emailRegex)) {
+            email.classList.add("error");
+            email.parentElement.classList.add("error");
+        }else{
+            email.classList.remove("error");
+            email.parentElement.classList.remove("error");
+        }
+    }
+    
+    form.addEventListener("submit", (e) =>{
+        e.preventDefault();
+    
+        checkInputs();  
+    
+        if(!Name.classList.contains("error") && !email.classList.contains("error") && !number.classList.contains("error") && !message.classList.contains("error")){
+            sendEmail();
+            form.reset();
+            return false;
+        }
+    })

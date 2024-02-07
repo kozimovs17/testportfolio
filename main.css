@@ -35,6 +35,7 @@ header .dennoch {
   justify-content: center;
   position: absolute;
   right: -80px;
+  cursor: pointer;
 }
 header .sun {
   position: absolute;
@@ -262,6 +263,7 @@ section .section-btn {
   border-left: 2px solid #fff;
   border-right: 2px solid #fff;
   margin-top: 33px;
+  cursor: pointer;
 }
 section .section-item {
   width: 388px;
