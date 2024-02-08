@@ -9,6 +9,7 @@
     overflow: hidden;
     background-image: url(./img/Background.png);
     background-size: cover;
+    overflow: hidden;
   }
   header .header-background2 {
     display: none;
@@ -27,6 +28,7 @@
     justify-content: center;
     position: absolute;
     right: 60px;
+    overflow: hidden;
   }
   header .sun {
     position: absolute;
@@ -104,6 +106,7 @@
     flex-direction: column-reverse;
     align-items: center;
     position: relative;
+    overflow: hidden;
   }
   header .header-item .header-info {
     width: 382px;
@@ -156,6 +159,7 @@
     align-items: center;
     justify-content: center;
     padding: 0;
+    overflow: hidden;
   }
   section h1 {
     width: 285px;
@@ -181,6 +185,7 @@
     width: 382;
     height: auto;
     margin-top: 74px;
+    overflow: hidden;
   }
   .about .title {
     width: 210px;
@@ -228,7 +233,7 @@
   .skills {
     width: 382px;
     margin-top: 150px;
-    overflow: scroll;
+    overflow: hidden;
   }
   .skills .title {
     width: 161px;
@@ -254,6 +259,7 @@
   .portfolio {
     width: 100%;
     height: auto;
+    overflow: hidden;
   }
   .portfolio .title {
     width: 100%;
@@ -293,6 +299,7 @@
     width: 100%;
     height: 960px;
     padding-top: 62px;
+    overflow: hidden;
   }
   .contact h1 {
     width: 156px;
@@ -318,7 +325,7 @@
     padding-left: 8px;
     font-size: 12px;
   }
-  .contact .massage {
+  .contact textarea {
     height: 165px;
     width: 243px;
   }
@@ -333,5 +340,6 @@
     width: 100%;
     height: 289px;
     padding: 46px 0;
+    overflow: hidden;
   }
 }/*# sourceMappingURL=media.css.map */
